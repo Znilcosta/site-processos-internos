@@ -6,7 +6,7 @@ import logo from "../logo/logo-salsa.png";
 function Navbar() {
   return (
     <div className="navbar roboto-medium">
-      <div>
+      <div className="navbar-img">
         <img className="navbar-logo" src={logo} alt="Logo do Grupo Salsa" />
       </div>
       <div>

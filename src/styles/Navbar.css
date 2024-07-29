@@ -8,6 +8,8 @@
 .navbar {
     background-color: #5c0673;
     display: flex;
+    justify-content: space-around;
+    padding: 0.7rem 0;
 }
 
 .navbar a {
@@ -17,8 +19,9 @@
 
 .navbar-list {
     display: flex;
+    padding: 0rem 3rem 0;
 }
 
-.navbar-logo {
-    max-width: 12rem;
+.navbar-list a {
+    padding: 0 2rem;
 }
