@@ -1,0 +1,24 @@
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #5c0673;
+    display: flex;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-list {
+    display: flex;
+}
+
+.navbar-logo {
+    max-width: 12rem;
+}
