@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Astralaga';
+    src: url(../font/astralaga-font/astralaga-semibold.ttf);
+}
+
+.company {
+    display: flex;
+    margin: 4rem 2rem 4rem;
+}
+
+.company h2 {
+    font-family: "Astralaga", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
+    color: white;
+
+    text-align: center;
+}
+
+.company p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+
+    line-height: 28px;
+    text-align: justify;
+    text-wrap: wrap;
+    margin-top: 2rem;
+
+}
+
+.company strong {
+    font-weight: 700;
+}
+
+.company div {
+    background-color: #5c0673;
+    margin: 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem;
+    width: 30%;
+}
