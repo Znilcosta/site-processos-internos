@@ -21,7 +21,7 @@ function Navbar() {
             <a href="#">IT</a>
           </li>
           <li>
-            <a href="#">VIDEOS</a>
+            <a href="#">AULAS</a>
           </li>
         </ul>
       </div>

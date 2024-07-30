@@ -1,14 +1,60 @@
-.roboto-medium {
-    font-family: "Roboto", sans-serif;
+.footer {
+    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-style: normal;
     color: #fff;
-}
 
-.footer {
     background-color: #5c0673;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 
     padding: 2rem 0;
 }
+
+.footer div {
+    width: 30%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.section-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.insta {
+    display: flex;
+    align-items: center;
+
+    padding-left: 4rem;
+
+    line-height: 25px;
+}
+
+.insta span {
+    padding-right: 1rem;
+}
+
+.copyright {
+    font-size: 0.7rem;
+    text-align: center;
+
+    line-height: 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: end;
+
+    padding-right: 4rem;
+}
+
+.contact span {
+    margin-right: 1rem;
+}
+
