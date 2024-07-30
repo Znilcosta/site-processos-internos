@@ -1,0 +1,32 @@
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #5c0673;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.7rem 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar a:hover {
+    font-size: 1.01rem;
+    color: #9b87bb;
+}
+
+.navbar-list {
+    display: flex;
+    padding: 1rem 3rem 0;
+}
+
+.navbar-list a {
+    padding: 0 2rem;
+}
