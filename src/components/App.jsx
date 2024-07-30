@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Company from "./Company";
 import Slogan from "./Slogan";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Company />
       <Slogan />
+      <Footer />
     </div>
   );
 }
