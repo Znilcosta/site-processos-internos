@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Visby";
+    src: url(../font/visby-font/VisbyMedium.otf);
+}
+
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.visby {
+    font-family: "Visby", cursive;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.visby strong {
+    font-weight: 700;
+}
+
+.slogan {
+    text-align: center;
+    line-height: 70px;
+    
+    margin: 6rem 2rem 4rem;
+    color: #5c0673;
+}
