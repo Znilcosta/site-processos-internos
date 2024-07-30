@@ -12,6 +12,9 @@ function Navbar() {
       <div>
         <ul className="navbar-list">
           <li>
+            <a href="#">INICIO</a>
+          </li>
+          <li>
             <a href="#">POP</a>
           </li>
           <li>
@@ -22,7 +25,7 @@ function Navbar() {
           </li>
         </ul>
       </div>
-      <div>Login</div>
+      <div className="navbar-list">LOGIN</div>
     </div>
   );
 }
