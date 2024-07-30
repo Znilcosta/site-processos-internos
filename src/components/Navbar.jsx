@@ -6,8 +6,8 @@ import logo from "../logo/logo-salsa.png";
 function Navbar() {
   return (
     <header className="navbar roboto-medium">
-      <div className="navbar-img">
-        <img className="navbar-logo" src={logo} alt="Logo do Grupo Salsa" />
+      <div>
+        <img src={logo} alt="Logo do Grupo Salsa" />
       </div>
       <div>
         <ul className="navbar-list">
@@ -21,7 +21,7 @@ function Navbar() {
             <a href="#">IT</a>
           </li>
           <li>
-            <a href="#">VIDEOS</a>
+            <a href="#">AULAS</a>
           </li>
         </ul>
       </div>

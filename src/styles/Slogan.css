@@ -16,14 +16,10 @@
     font-size: 40px;
 }
 
-.visby strong {
-    font-weight: 700;
-}
-
 .slogan {
     text-align: center;
     line-height: 70px;
     
-    margin: 6rem 2rem 4rem;
+    padding: 1rem 2rem 5rem;
     color: #5c0673;
 }
