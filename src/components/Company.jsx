@@ -16,9 +16,10 @@ function Company() {
       <div>
         <h2>Visão</h2>
         <p>
-          Criar um relacionamento duradouro com os nossos clientes, os guiando
-          para que atinjam o seu maios potencial. Nos transformando em uma
-          empresa de referência no atendimento e produtos.
+          Criar um <strong>relacionamento duradouro</strong> com os nossos
+          clientes, os guiando para que atinjam o seu maior
+          <strong> potencial.</strong> Nos transformando em uma empresa de
+          referência no atendimento e produtos.
         </p>
       </div>
       <div>

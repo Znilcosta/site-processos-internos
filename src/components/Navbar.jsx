@@ -5,7 +5,7 @@ import logo from "../logo/logo-salsa.png";
 
 function Navbar() {
   return (
-    <div className="navbar roboto-medium">
+    <header className="navbar roboto-medium">
       <div className="navbar-img">
         <img className="navbar-logo" src={logo} alt="Logo do Grupo Salsa" />
       </div>
@@ -26,7 +26,7 @@ function Navbar() {
         </ul>
       </div>
       <div className="navbar-list">LOGIN</div>
-    </div>
+    </header>
   );
 }
 
