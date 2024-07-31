@@ -1,17 +1,18 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 
-import Navbar from "./Navbar";
-import Company from "./Company";
-import Slogan from "./Slogan";
-import Footer from "./Footer";
+import Home from "../pages/Home";
+import Procedure from "../pages/Procedure";
+import Classroom from "../pages/Classroom";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Company />
-      <Slogan />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/processos" element={<Procedure />} />
+        <Route path="/aulas" element={<Classroom />} />
+      </Routes>
     </div>
   );
 }

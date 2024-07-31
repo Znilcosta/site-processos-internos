@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 import "../styles/Navbar.css";
 import logo from "../logo/logo-salsa.png";
 
@@ -12,16 +14,19 @@ function Navbar() {
       <div>
         <ul className="navbar-list">
           <li>
-            <a href="#">INICIO</a>
+            <Link to="/" style={{ textDecoration: "none" }}>
+              <span>INICIO</span>
+            </Link>
           </li>
           <li>
-            <a href="#">POP</a>
+            <Link to="/processos" style={{ textDecoration: "none" }}>
+              <span>PROCESSOS</span>
+            </Link>
           </li>
           <li>
-            <a href="#">IT</a>
-          </li>
-          <li>
-            <a href="#">AULAS</a>
+            <Link to="/aulas" style={{ textDecoration: "none" }}>
+              <span>AULAS</span>
+            </Link>
           </li>
         </ul>
       </div>
