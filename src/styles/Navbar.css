@@ -12,12 +12,11 @@
     padding: 0.7rem 0;
 }
 
-.navbar a {
-    text-decoration: none;
+.navbar span {
     color: #fff;
 }
 
-.navbar a:hover {
+.navbar span:hover {
     font-size: 1.01rem;
     color: #9b87bb;
 }
@@ -27,6 +26,6 @@
     padding: 1rem 3rem 0;
 }
 
-.navbar-list a {
+.navbar-list span {
     padding: 0 2rem;
 }
