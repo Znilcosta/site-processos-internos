@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.select-sector{
+    background-color: #5c0673;
+}
+
+.select-sector-text{
+    color: white;
+}

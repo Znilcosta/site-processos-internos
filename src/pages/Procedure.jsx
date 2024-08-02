@@ -1,6 +1,7 @@
 import React from "react";
 
 import Navbar from "../components/Navbar";
+import Files from "../components/Files";
 import Footer from "../components/Footer";
 
 import "../styles/Page.css";
@@ -11,7 +12,9 @@ function Procedure() {
       <header>
         <Navbar />
       </header>
-      <main></main>
+      <main>
+        <Files />
+      </main>
       <footer>
         <Footer />
       </footer>
