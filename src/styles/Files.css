@@ -1,6 +1,7 @@
 .container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-self: center;
 }
 
 .select-sector{
@@ -9,4 +10,12 @@
 
 .select-sector-text{
     color: white;
+}
+
+.card-area {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    margin-bottom: 3rem;
 }

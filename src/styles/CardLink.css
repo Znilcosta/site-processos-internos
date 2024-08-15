@@ -1,0 +1,18 @@
+.card-link {
+    width: 250px;
+}
+
+.card-button {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #5c0673;
+    width: 250px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: normal;
+    color: #fff;
+}
